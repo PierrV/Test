@@ -1,1 +1,20 @@
+
 Les branches :
+
+git branch experimental (création)
+git branch (liste)
+	experimental
+	* master
+git checkout experimental (danger)
+
+**editer des fichiers
+git commit -a
+git checkout master
+
+**eduter des fichiers
+git commit -a
+
+$git merge experimental
+/!\ possibilite de conflit
+
+git diff
