@@ -17,4 +17,7 @@ git commit -a
 $git merge experimental
 /!\ possibilite de conflit
 
-git diff
+git diff pour les voir 
+
+**editer les fichier pour regler les conflits
+git commit -a
