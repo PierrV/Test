@@ -1,0 +1,29 @@
+Designer un commit :
+ -identifiant ex : 3784efa....
+	eventuellement abrégé
+		ex : git show 3784efa
+ -nom de branche 
+	le dernier commit de la branche
+		ex : git show experimental
+
+ -HEAD :
+	dernier commit de la branche courante
+		ex : git show HEAD
+
+ -commit^ :	
+	parent de commit donné
+		ex : git show HEAD^	avant-dernier
+		     git show HEAD^^ 	avant-avant dernier
+		     git show HEAD~4 ou git show HEAD^^^^ idem
+
+ -si plusieurs parents : 
+	commit ^1 : le premier parent
+	commit ^2 : le deuxieme parent
+
+9+ info : man gitrevisions
+
+ -etiqueter (donner un nom) a un commit : git tag
+	ex : git tag v2.5 37efac2
+		donne le nom "v2.5" sur commit 37efac2
+	ce nom peut etre ensuite utilisé pour désigner le commit
+		ex : git show v2.5
